@@ -3,12 +3,18 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
+# No changes needed here for PyPI publishing.
+# To install directly from a remote GitHub repo, add to dependencies like:
+# "package_name @ git+https://github.com/username/repo.git@branch"
+# 1. Build your package: python -m build
+# 2. Upload to PyPI: python -m twine upload dist/*
 name = "asaio_hex_infra"
 version = "0.0.1"
 description = "A hexagonal architecture for cloud infrastructure."
 authors = [
     { name = "Guilherme Asai Oliveira", email = "guiasaio@gmail.com" }
 ]
+readme = "README.md"
 requires-python = ">=3.7"
 license = "GPL-3.0-only"
 dependencies = [
