@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 # 1. Build your package: python -m build
 # 2. Upload to PyPI: python -m twine upload dist/*
 name = "asaio_hex_infra"
-version = "0.0.1"
+version = "0.0.2"
 description = "A hexagonal architecture for cloud infrastructure."
 authors = [
     { name = "Guilherme Asai Oliveira", email = "guiasaio@gmail.com" }
