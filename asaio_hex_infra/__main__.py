@@ -24,7 +24,7 @@ def main():
             print(f"This is the sum of all numeric args: {equation} = {sum_args!r}")
         # Add your run logic here
     elif command == "test":
-        print("Running tests...2")
+        print("Running tests...")
         # Add your test logic here
     else:
         print(f"Unknown command: {command}")
