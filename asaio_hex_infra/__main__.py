@@ -1,5 +1,5 @@
 import sys
-from src.adapters.aws import AWSSession
+from asaio_hex_infra.src.adapters.aws import AWSSession
 
 def main():
     if len(sys.argv) < 2:
