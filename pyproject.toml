@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 # No changes needed here for PyPI publishing.
 # To install directly from a remote GitHub repo, add to dependencies like:
-# "package_name @ git+https://github.com/username/repo.git@branch"
+# "git+https://github.com/username/repo.git@branch#egg=package_name"
 # 1. Build your package: python -m build
 # 2. Upload to PyPI: python -m twine upload dist/*
 name = "asaio_hex_infra"
