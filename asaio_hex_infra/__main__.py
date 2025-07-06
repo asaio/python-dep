@@ -23,6 +23,9 @@ def main():
             equation = '+'.join([arg for arg in sys.argv[2:] if arg.isdigit()])
             print(f"This is the sum of all numeric args: {equation} = {sum_args!r}")
         # Add your run logic here
+    elif command == "test":
+        print("Running tests...")
+        # Add your test logic here
     else:
         print(f"Unknown command: {command}")
         sys.exit(1)
