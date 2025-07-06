@@ -35,7 +35,7 @@ classifiers = [
 ]
 
 [project.scripts]
-run = "asaio_hex_infra.__main__:main"
+asaio_hex_infra = "asaio_hex_infra.__main__:main"
 
 [tool.setuptools]
 packages = ["asaio_hex_infra"]
